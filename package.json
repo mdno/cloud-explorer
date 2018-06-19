@@ -17,7 +17,8 @@
     "body-parser": "~1.15.0",
     "cookie-parser": "~1.4.1",
     "express-session": "~1.13.0",
-    "unifile": "0.0.56"
+    "unifile": "1.0.0",
+    "snyk": "^1.83.0"
   },
   "repository": {
     "type": "git",
@@ -65,5 +66,10 @@
   "license": "MIT",
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
+  "snyk": true
 }
