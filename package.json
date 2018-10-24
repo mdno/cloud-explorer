@@ -7,7 +7,7 @@
     "Alex Hoyau aka lexoyo"
   ],
   "dependencies": {
-    "express": "3.4.x",
+    "express": "4.15.5",
     "dbox": "0.6.x",
     "node-oauth": "0.1.x",
     "oauth": "",
@@ -17,7 +17,7 @@
     "body-parser": "~1.15.0",
     "cookie-parser": "~1.4.1",
     "express-session": "~1.13.0",
-    "unifile": "0.0.56"
+    "unifile": "1.0.0"
   },
   "repository": {
     "type": "git",
