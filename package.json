@@ -7,7 +7,7 @@
     "Alex Hoyau aka lexoyo"
   ],
   "dependencies": {
-    "express": "3.4.x",
+    "express": "3.11.0",
     "dbox": "0.6.x",
     "node-oauth": "0.1.x",
     "oauth": "",
