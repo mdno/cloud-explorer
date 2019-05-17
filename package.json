@@ -7,17 +7,18 @@
     "Alex Hoyau aka lexoyo"
   ],
   "dependencies": {
-    "express": "3.4.x",
+    "express": "4.16.0",
     "dbox": "0.6.x",
     "node-oauth": "0.1.x",
     "oauth": "",
     "haxe": "~0.1.9",
     "path": "",
-    "connect-multiparty": "~2.0.0",
-    "body-parser": "~1.15.0",
+    "connect-multiparty": "~2.1.0",
+    "body-parser": "~1.18.2",
     "cookie-parser": "~1.4.1",
-    "express-session": "~1.13.0",
-    "unifile": "0.0.56"
+    "express-session": "~1.15.6",
+    "unifile": "1.0.0",
+    "snyk": "^1.165.0"
   },
   "repository": {
     "type": "git",
@@ -65,5 +66,10 @@
   "license": "MIT",
   "engines": {
     "node": "0.10.x"
-  }
+  },
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
