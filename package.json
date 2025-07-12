@@ -13,7 +13,7 @@
     "oauth": "",
     "haxe": "~0.1.9",
     "path": "",
-    "connect-multiparty": "~2.0.0",
+    "connect-multiparty": "~2.2.0",
     "body-parser": "~1.15.0",
     "cookie-parser": "~1.4.1",
     "express-session": "~1.13.0",
